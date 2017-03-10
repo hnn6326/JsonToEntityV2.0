@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: JsonToEntityV2.0
+Bundle-SymbolicName: JsonToEntityV2.0;singleton:=true
+Bundle-Version: 2.0.1.qualifier
+Bundle-Activator: jsontoentity.Activator
+Bundle-Vendor: zjp
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Eclipse-AutoStart: true
+Bundle-ClassPath: libs/gson-2.2.4-bin.jar,
+ .
